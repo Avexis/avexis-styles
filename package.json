@@ -1,0 +1,26 @@
+{
+  "name": "avexis-styles",
+  "version": "1.0.0",
+  "description": "Styles used in most of Avexis' projects.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/scss/main.scss   dist/css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avexis/avexis-styles.git"
+  },
+  "keywords": [
+    "avexis"
+  ],
+  "author": "@Boyum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Avexis/avexis-styles/issues"
+  },
+  "homepage": "https://github.com/Avexis/avexis-styles#readme",
+  "devDependencies": {
+    "node-sass": "^3.10.1"
+  }
+}
