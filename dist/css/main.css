@@ -1,0 +1,8 @@
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+.avexis {
+  display: inline-block;
+  font-family: "Inconsolata",sans-serif !important;
+  letter-spacing: .3em;
+  text-transform: uppercase; }
+  .avexis::first-letter {
+    font-size: 1.2em; }
